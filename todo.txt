@@ -15,13 +15,13 @@
   - GET
 
   requirements:
-  - user: name, email, address
-  - add user
-  - edit user
-  - delete user
-  - create token for user with expiration time
-  - login uses users' token 
-  - logout destroys users's token
+OK  - user: name, email, address
+OK  - add user
+OK  - edit user
+OK  - delete user
+OK  - create token for user with expiration time
+OK  - login uses users' token 
+OK  - logout destroys users's token
   - logged in:
     - get menu items
     - add items to cart
