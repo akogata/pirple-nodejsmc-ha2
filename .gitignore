@@ -1,3 +1,6 @@
+.data
+https/*.pem
+
 # Logs
 logs
 *.log

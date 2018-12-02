@@ -1,0 +1,33 @@
+/users
+  - POST
+  - GET
+  - PUT
+  - DELETE
+/tokens
+  - POST
+  - DELETE
+  - GET
+/menu
+  - GET
+/orders
+  - POST
+  - PUT
+  - GET
+
+  requirements:
+OK  - user: name, email, address
+OK  - add user
+OK  - edit user
+OK  - delete user
+OK  - create token for user with expiration time
+OK  - login uses users' token 
+OK  - logout destroys users's token
+  - logged in:
+    - get menu items
+    - add items to cart
+    - delete items from cart
+    - list items in cart
+    - place order
+      - payment (stripe sandbox)
+      - receipt emailed to user (mailgun)
+  - document how to use the API
